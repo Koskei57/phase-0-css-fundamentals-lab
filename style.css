@@ -1,5 +1,40 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: grey;
+}
+
+#featured-property p {
+    width: 800px;
+    text-align: center;
+}
+
+#featured-property figure>img {
+    justify-content: center;
+}
+
+figcaption {
+    width: 800px;
+    text-align: center;
+}
+
+#details div {
+    float: left;
+    background: red;
+    justify-content: center;
+    width: 25%;
 }
